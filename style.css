@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-    width: 1400px;
     max-height: 100%;
     display: flex;
     align-items: center;
@@ -29,6 +28,12 @@ body {
     width: 940px;
     background: red;
     border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    width: 250px;
+    height: 440px;
 }
 
 .slide {
