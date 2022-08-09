@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    color: #0f141e;
+
+    font: 400 16px 'Inter', sans-serif;
+}
+
+.container {
+    width: 1400px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.avatar {
+    display: flex;
+    height: 680px;
+    width: 370px;
+    background: blue;
+    border-radius: 10px;
+    margin-right: 24px;
+}
+
+.daily {
+    display: flex;
+    align-items: center;
+    height: 680px;
+    width: 940px;
+    background: red;
+    border-radius: 10px;
+}
+
+.slide {
+    display: flex;
+    width: 250px;
+    height: 440px;
+}
