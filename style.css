@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+    max-width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -42,10 +43,17 @@ body {
 .swiper {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 620px;
     width: 900px;
     background-color: white;
     overflow: hidden;
+    min-width: 0;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .button__close {
