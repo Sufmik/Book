@@ -6,14 +6,18 @@ body {
 }
 
 .container {
-    max-height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    background: grey;
+    overflow: hidden;
 }
 
 .avatar {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 680px;
     width: 370px;
     background: blue;
@@ -22,18 +26,32 @@ body {
 }
 
 .daily {
+    position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 680px;
     width: 940px;
-    background: red;
+    background: aqua;
     border-radius: 10px;
+    border-width: 10px;
 }
 
 .slider {
     display: flex;
-    width: 250px;
-    height: 440px;
+    align-items: center;
+    height: 620px;
+    width: 900px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.button__close {
+    position: absolute;
+    right: -3%;
+    top: -3%;
+    border-style: none;
+    background-color: transparent;
 }
 
 .slide {
