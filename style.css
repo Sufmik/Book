@@ -35,9 +35,11 @@ body {
     background: aqua;
     border-radius: 10px;
     border-width: 10px;
+    /* нужно ли? */
+    min-width: 0;
 }
 
-.slider {
+.swiper {
     display: flex;
     align-items: center;
     height: 620px;
@@ -52,9 +54,10 @@ body {
     top: -3%;
     border-style: none;
     background-color: transparent;
+    z-index: 1;
 }
 
-.slide {
+.swiper-slide {
     display: flex;
     width: 250px;
     height: 440px;

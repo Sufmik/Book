@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="adaptive.css">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+
     <title>Мои истории</title>
 </head>
 
@@ -17,12 +22,14 @@
             <img src="data/Аватар.jpeg" alt="Avatar">
         </div>
         <div class="daily">
-            <div class="slider">
-                <div class="slide"><img src="data/обучение.jpeg" alt=""></div>
-                <div class="slide"><img src="data/Королева вечеринки.jpeg" alt=""></div>
-                <div class="slide"><img src="data/БАЛ Маскарад.jpeg" alt=""></div>
-                <div class="slide"><img src="data/SPA-салон.jpeg" alt=""></div>
-                <div class="slide"><img src="data/beach adventure SOON.jpeg" alt=""></div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="data/обучение.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="data/Королева вечеринки.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="data/БАЛ Маскарад.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="data/SPA-салон.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="data/beach adventure SOON.jpeg" alt=""></div>
+                </div>
             </div>
             <button class="button__close"><img src="data/Кнопка.jpeg" alt="Close" class="button__img"></button>
         </div>
